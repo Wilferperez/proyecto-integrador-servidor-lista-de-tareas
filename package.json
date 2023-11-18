@@ -1,17 +1,20 @@
 {
   "name": "proyecto-integrador---servidor-lista-de-tareas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto integrador api rest server lista de tareas con jwt y express",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["proyecto-integrador-express"],
+  "author": "Wilferperez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
